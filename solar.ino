@@ -12,7 +12,7 @@ myservo.write(pos);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly to execute the loop function:
+  // put your main code here, to run repeatedly:
 int ldrvalue = analogRead(ldr);
 int ldrvalue2 = analogRead(ldr2);
 pos=constrain(pos,0,180);
